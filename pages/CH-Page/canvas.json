@@ -1,0 +1,97 @@
+{
+  "unpublishedPage": {
+    "name": "CH-Page",
+    "slug": "ch-page",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 5016,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 64,
+          "minHeight": 1292,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "CurrencyInput1",
+              "displayName": "Currency Input",
+              "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
+              "searchTags": [
+                "amount",
+                "total"
+              ],
+              "topRow": 28,
+              "bottomRow": 32,
+              "defaultCurrencyCode": "USD",
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "autoFocus": false,
+              "type": "CURRENCY_INPUT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.28125,
+              "resetOnSubmit": true,
+              "leftColumn": 9,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Left",
+              "labelStyle": "",
+              "isDisabled": false,
+              "key": "tqjckkb2gg",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 29,
+              "widgetId": "drh5wr9wxm",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "Label",
+              "allowCurrencyChange": false,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "decimals": 0,
+              "iconAlign": "left",
+              "defaultText": ""
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "CH-Page",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "620b16096b4b1e154a3c1eee_620b16096b4b1e154a3c1ef0"
+}
