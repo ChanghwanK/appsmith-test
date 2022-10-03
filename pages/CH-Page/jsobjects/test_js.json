@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "test_js",
+    "pageId": "CH-Page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyFun1: () => {\n\t\t//write code here\n\t\tconsole.log(\"Hello\")\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": []
+  },
+  "id": "CH-Page_test_js",
+  "deleted": false,
+  "gitSyncId": "620b16096b4b1e154a3c1eee_633a6685197d8c7f30ad6bc6"
+}
